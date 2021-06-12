@@ -8,6 +8,11 @@ You can declare the model used for the response with the parameter `response_mod
 * `@app.delete()`
 * etc.
 
+!!! info
+    To use email validator (`EmailStr` type), first install <a href="https://github.com/JoshData/python-email-validator" class="external-link" target="_blank">`email-validator`</a> package.
+
+    E.g. `pip install email-validator`.
+
 ```Python hl_lines="17"
 {!../../../docs_src/response_model/tutorial001.py!}
 ```
